@@ -29,17 +29,17 @@
             >Web<span class="logotype-span">Studio</span></a
           >
           <ul class="header-list list">
-            <li class="header-list-item list">
+            <li class="header-list-item">
               <a class="header-list-item-link link current" href="./index.html"
                 >Studio</a
               >
             </li>
-            <li class="header-list-item list">
+            <li class="header-list-item">
               <a class="header-list-item-link link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
-            <li class="header-list-item list">
+            <li class="header-list-item">
               <a class="header-list-item-link link" href="">Contacts</a>
             </li>
           </ul>
@@ -62,7 +62,143 @@
             </li>
           </ul>
         </address>
+        <button
+          class="heder-mobile-menu-button js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="heder-mobile-menu-button-icon"
+            width="32"
+            height="22"
+            aria-label="mobile menu button"
+          >
+            <use href="./images/icons/icons.svg#mobile-menu-button"></use>
+          </svg>
+        </button>
       </div>
+
+      <!-- mobail menu -->
+      <div
+        class="heder-mobile-menu-container js-menu-container"
+        id="mobile-menu"
+      >
+        <button
+          class="heder-mobile-menu-close-button js-close-menu"
+          type="button"
+        >
+          <svg class="heder-mobile-menu-close-button-icon" width="8" height="8">
+            <use href="images/icons/icons.svg#close-button"></use>
+          </svg>
+        </button>
+        <nav class="heder-mobile-menu-navigation">
+          <ul class="heder-mobile-menu-list list">
+            <li class="heder-mobile-menu-list-item">
+              <a
+                class="heder-mobile-menu-list-item-link link current"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="heder-mobile-menu-list-item">
+              <a
+                class="heder-mobile-menu-list-item-link link"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="heder-mobile-menu-list-item">
+              <a class="heder-mobile-menu-list-item-link link" href=""
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="heder-mobile-menu-addres-and-social">
+          <address class="heder-mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list list">
+              <li class="mobile-menu-contacts-list-tel">
+                <a
+                  class="mobile-menu-contacts-list-item-link link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contacts-list-mail">
+                <a
+                  class="mobile-menu-contacts-list-item-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="heder-mobile-menu-list-social list">
+            <li class="heder-mobile-menu-list-social-item">
+              <a
+                href=""
+                class="heder-mobile-menu-list-social-item-link link"
+                aria-label="instagram"
+              >
+                <svg
+                  class="heder-mobile-menu-list-social-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="images/icons/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="heder-mobile-menu-list-social-item">
+              <a
+                href=""
+                class="heder-mobile-menu-list-social-item-link link"
+                aria-label="twitter"
+              >
+                <svg
+                  class="heder-mobile-menu-list-social-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="images/icons/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="heder-mobile-menu-list-social-item">
+              <a
+                href=""
+                class="heder-mobile-menu-list-social-item-link link"
+                aria-label="facebook"
+              >
+                <svg
+                  class="heder-mobile-menu-list-social-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="images/icons/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="heder-mobile-menu-list-social-item">
+              <a
+                href=""
+                class="heder-mobile-menu-list-social-item-link link"
+                aria-label="linkedin"
+              >
+                <svg
+                  class="heder-mobile-menu-list-social-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="images/icons/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /mobail menu -->
     </header>
     <!-- /site header section -->
 
@@ -90,8 +226,8 @@
                   <use href="./images/icons/icons.svg#benefits-antenna"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Strategy</h3>
-              <p class="text">
+              <h3 class="benefits-subtitle subtitle">Strategy</h3>
+              <p class="benefits-text text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -102,8 +238,8 @@
                   <use href="./images/icons/icons.svg#benefits-clock"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Punctuality</h3>
-              <p class="text">
+              <h3 class="benefits-subtitle subtitle">Punctuality</h3>
+              <p class="benefits-text text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -114,8 +250,8 @@
                   <use href="./images/icons/icons.svg#benefits-diagram"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Diligence</h3>
-              <p class="text">
+              <h3 class="benefits-subtitle subtitle">Diligence</h3>
+              <p class="benefits-text text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -126,8 +262,8 @@
                   <use href="./images/icons/icons.svg#benefits-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Technologies</h3>
-              <p class="text">
+              <h3 class="benefits-subtitle subtitle">Technologies</h3>
+              <p class="benefits-text text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -143,28 +279,91 @@
           <h2 class="title">What are we doing</h2>
           <ul class="works-list list">
             <li class="works-list-item">
-              <img
-                class="works-list-item-img"
-                src="./images/work/works-img1-monitor-screen.jpg"
-                alt="monitor screen"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/work/works-img1-des@1x.webp 1x,
+                    ./images/work/works-img1-des@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="360"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/work/works-img1-des@1x.jpg 1x,
+                    ./images/work/works-img1-des@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                  width="360"
+                  loading="lazy"
+                />
+                <img
+                  class="works-list-item-img"
+                  src="./images/work/works-img1-des@1x.jpg"
+                  alt="monitor screen"
+                  width="360"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="works-list-item">
-              <img
-                class="works-list-item-img"
-                src="./images/work/works-img2-phone-screens.jpg"
-                alt="phone screens"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/work/works-img2-des@1x.webp 1x,
+                    ./images/work/works-img2-des@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="360"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/work/works-img2-des@1x.jpg 1x,
+                    ./images/work/works-img2-des@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                  width="360"
+                  loading="lazy"
+                />
+                <img
+                  class="works-list-item-img"
+                  src="./images/work/works-img2-des@1x.jpg.jpg"
+                  alt="phone screens"
+                  width="360"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="works-list-item">
-              <img
-                class="works-list-item-img"
-                src="./images/work/works-img3-phone-and-laptop.jpg"
-                alt="phone and laptop"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/work/works-img3-des@1x.webp 1x,
+                    ./images/work/works-img3-des@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="360"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/work/works-img3-des@1x.jpg 1x,
+                    ./images/work/works-img3-des@2x.jpg
+                  "
+                  type="image/jpg"
+                  width="360"
+                  loading="lazy"
+                />
+                <img
+                  class="works-list-item-img"
+                  src="./images/team/team-img3-mob@1x.jpg"
+                  alt="phone and laptop"
+                  width="360"
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
         </div>
@@ -177,12 +376,33 @@
           <h2 class="title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/team-card-1-product-designer.jpg"
-                alt="photo of team member 1"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-img1-mob@1x.webp 1x,
+                    ./images/team/team-img1-mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="264"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/team/team-img1-mob@1x.jpg 1x,
+                    ./images/team/team-img1-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                  width="264"
+                  loading="lazy"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/team-img1-mob@1x.jpg"
+                  alt="photo of team member 1"
+                  width="264"
+                  loading="lazy"
+                />
+              </picture>
               <div class="box-content">
                 <h3 class="team-subtitle subtitle">Mark Guerrero</h3>
                 <p class="team-text text">Product Designer</p>
@@ -235,12 +455,33 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/team-card-2-frontend-developer.jpg"
-                alt="photo of team member 2"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-img2-mob@1x.webp 1x,
+                    ./images/team/team-img2-mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="264"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/team/team-img2-mob@1x.jpg 1x,
+                    ./images/team/team-img2-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                  width="264"
+                  loading="lazy"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/team-img2-mob@1x.jpg"
+                  alt="photo of team member 2"
+                  width="264"
+                  loading="lazy"
+                />
+              </picture>
               <div class="box-content">
                 <h3 class="team-subtitle subtitle">Tom Ford</h3>
                 <p class="team-text text">Frontend Developer</p>
@@ -293,12 +534,33 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/team-card-3-marketing.jpg"
-                alt="photo of team member 3"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-img3-mob@1x.webp 1x,
+                    ./images/team/team-img3-mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="264"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/team/team-img3-mob@1x.jpg 1x,
+                    ./images/team/team-img3-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                  width="264"
+                  loading="lazy"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/team-img3-mob@1x.jpg"
+                  alt="photo of team member 3"
+                  width="264"
+                  loading="lazy"
+                />
+              </picture>
               <div class="box-content">
                 <h3 class="team-subtitle subtitle">Camila Garcia</h3>
                 <p class="team-text text">Marketing</p>
@@ -351,12 +613,33 @@
               </div>
             </li>
             <li class="team-list-item">
-              <img
-                class="team-list-item-img"
-                src="./images/team/team-card-4-ui-designer.jpg"
-                alt="photo of team member 4"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team-img4-mob@1x.webp 1x,
+                    ./images/team/team-img4-mob@2x.webp 2x
+                  "
+                  type="image/webp"
+                  width="264"
+                  loading="lazy"
+                />
+                <source
+                  srcset="
+                    ./images/team/team-img4-mob@1x.jpg 1x,
+                    ./images/team/team-img4-mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                  width="264"
+                  loading="lazy"
+                />
+                <img
+                  class="team-list-item-img"
+                  src="./images/team/team-img4-mob@1x.jpg"
+                  alt="photo of team member 4"
+                  width="264"
+                  loading="lazy"
+                />
+              </picture>
               <div class="box-content">
                 <h3 class="team-subtitle subtitle">Daniel Wilson</h3>
                 <p class="team-text text">UI Designer</p>
@@ -552,7 +835,6 @@
             </li>
           </ul>
         </div>
-
         <form class="footer-subscribe-form">
           <label
             class="footer-subscribe-lable footer-subtitle"
@@ -671,7 +953,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.7/dist/jquery.inputmask.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script> -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/phone-mask.js"></script>
     <script src="./js/modal.js"></script>
   </body>
