@@ -171,8 +171,7 @@ img {
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid tomato;
+  margin-right: auto;  
 }
 
 @media screen and (min-width: 768px) {
